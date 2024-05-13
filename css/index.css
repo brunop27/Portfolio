@@ -1,8 +1,40 @@
 header{
-    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #285C82;
+    border-bottom: 10px solid #202020;
+    padding: 10px 20px;
+}
+
+nav{
+    text-align: right;
 }
 
 a{
-    color: white;
+    display: inline-flex;
+    align-items: center;
+    color: #EDEDED;
     font-size: 20px;
+    font-family: "Fira Code", Arial, Helvetica, sans-serif sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+a::before{
+    content: '';
+    background-color: #202020;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.button{
+    background-color: #202020;
+    height: 50px;
+    padding: 20px;
+    box-shadow: 3px 3px 1px#EDEDED;
+    margin-left: 0;
 }
