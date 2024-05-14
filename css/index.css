@@ -2,9 +2,15 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #285C82;
-    border-bottom: 10px solid #202020;
+    background-color: #1e90ff;
+    border-bottom: 10px solid #57606f;
     padding: 10px 20px;
+}
+
+h1{
+    font-family: 'Fira Code', sans-serif;
+    color: #EDEDED;
+    text-shadow: 3px 3px 0px #57606f;
 }
 
 nav{
@@ -15,26 +21,22 @@ a{
     display: inline-flex;
     align-items: center;
     color: #EDEDED;
-    font-size: 20px;
-    font-family: "Fira Code", Arial, Helvetica, sans-serif sans-serif;
+    font-size: 21px; 
+    font-family: 'Fira Code', Arial, Helvetica, sans-serif sans-serif;
     font-weight: 600;
     text-decoration: none;
     margin-right: 30px;
 }
 
-a::before{
-    content: '';
-    background-color: #202020;
-    width: 10px;
-    height: 10px;
-    margin-right: 10px;
-    border-radius: 50%;
-}
-
 .button{
-    background-color: #202020;
+    background-color: #ff6b81;
     height: 50px;
     padding: 20px;
-    box-shadow: 3px 3px 1px#EDEDED;
+    box-shadow: 3px 3px 1px #373d46;
     margin-left: 0;
+    transition: transform 0.3ms ease-in;
+}
+
+.button:hover{
+    transform: translate(1px, 1px) ;
 }
