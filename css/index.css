@@ -3,14 +3,14 @@ header{
     justify-content: space-between;
     align-items: center;
     background-color: #1e90ff;
-    border-bottom: 10px solid #57606f;
+    border-bottom: 5px solid #2e2e2e;;
     padding: 10px 20px;
 }
 
 h1{
     font-family: "Fira Code", sans-serif;
     color: #EDEDED;
-    text-shadow: 3px 3px 0px #57606f;
+    text-shadow: 3px 3px 0px #2e2e2e;;
 }
 
 nav{
@@ -32,7 +32,7 @@ a{
     background-color: #ff6b81;
     height: 50px;
     padding: 20px;
-    box-shadow: 3px 3px 1px #373d46;
+    box-shadow: 3px 3px 1px #2e2e2e;
     margin-left: 0;
     transition: transform 0.3ms ease-in;
 }
