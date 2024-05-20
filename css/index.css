@@ -8,7 +8,7 @@ header{
 }
 
 h1{
-    font-family: 'Fira Code', sans-serif;
+    font-family: "Fira Code", sans-serif;
     color: #EDEDED;
     text-shadow: 3px 3px 0px #57606f;
 }
@@ -22,7 +22,7 @@ a{
     align-items: center;
     color: #EDEDED;
     font-size: 21px; 
-    font-family: 'Fira Code', Arial, Helvetica, sans-serif sans-serif;
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;
     font-weight: 600;
     text-decoration: none;
     margin-right: 30px;
