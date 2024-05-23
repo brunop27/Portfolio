@@ -1,0 +1,9 @@
+a{
+    display: inline-flex;
+    align-items: center;
+    color: #EDEDED;
+    font-size: 21px; 
+    font-weight: 600;
+    text-decoration: none;
+    margin-right: 30px;
+}
