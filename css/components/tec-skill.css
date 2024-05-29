@@ -1,0 +1,17 @@
+.tec-skill{
+    font-size: 20px;
+    color: #fff;
+    display: flex;
+}
+
+.tec-skill .icon{
+    margin-top: 5px;
+    margin-right: 15px;
+    width: 70px;
+}
+
+.tec-skill .description-skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
