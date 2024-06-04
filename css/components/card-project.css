@@ -5,7 +5,8 @@
     background-color: #7C5E99;
     width: 200px;
     height: 180px;
-    box-shadow: 10px 10px 0px #FFF;
+    box-shadow: 2px 2px 10px #FFF;
+    font-size: 25px;
 }
 
 .card-project img{
