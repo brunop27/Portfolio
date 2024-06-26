@@ -33,3 +33,7 @@
     padding-right: 20px;
     background-color: #CEB024;
 }
+
+.node-card.current-item{
+    transform: translate(5px, 2px)
+}
