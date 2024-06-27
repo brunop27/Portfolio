@@ -41,11 +41,11 @@
 }
 
 .main-carousel .items{
-    width: 100%;
+    width: 80%;
     overflow: hidden;
 }
 
 .main-carousel .elements{
     display: flex;
-    justify-content: space-between;
+    gap: 100px;
 }
